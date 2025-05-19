@@ -1,7 +1,7 @@
 import express, { type Request, type Response } from 'express';
 import cors from 'cors';
 import { b } from '../../baml_client';
-import { BamlStream } from '@boundaryml/baml';
+import { BamlStream, Image } from '@boundaryml/baml';
 import dotenv from 'dotenv';
 
 dotenv.config();
