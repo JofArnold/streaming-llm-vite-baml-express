@@ -1,0 +1,14 @@
+code {
+  display: block;
+  margin: 40px;
+  width: 500px
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
